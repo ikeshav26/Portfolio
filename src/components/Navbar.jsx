@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='md:px-10'>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div className='md:px-10 w-full bg-transparent'>
+            <div className="navbar  shadow-sm">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl">
                         <div className='flex items-center md:gap-2'>
