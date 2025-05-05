@@ -1,8 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.circle1{
+.circle1 {
     box-shadow: 
     0 0 2rem #ff003d,
     inset 0 0 3rem #ff003d;
 }
+

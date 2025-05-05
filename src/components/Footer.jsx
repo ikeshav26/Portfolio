@@ -6,19 +6,19 @@ const Footer = () => {
 
     const el = React.useRef(null);
 
-  React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['<i >MERN DEVELOPER !!</i>', 'WEB DESIGNER !!'],
-      typeSpeed: 30,
-      backSpeed: 20, 
-      loop: true, 
-    });
+    React.useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ['<i >MERN DEVELOPER !!</i>', 'WEB DESIGNER !!'],
+            typeSpeed: 30,
+            backSpeed: 20,
+            loop: true,
+        });
 
-    return () => {
+        return () => {
 
-      typed.destroy();
-    };
-  }, []);
+            typed.destroy();
+        };
+    }, []);
     return (
         <div className='absolute bottom-0 w-full  px-2 md:px-10 pb-2'>
             <div className='flex items-center justify-between'>
@@ -46,7 +46,7 @@ const Footer = () => {
                             </g>
                         </svg>
                     </Link>
-                    <Link to="">
+                    <Link to="https://x.com/KeshavGilh5995">
                         <svg className='w-7 h-7 md:h-9 md:w-9' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
                             <path fill="#ff003d" d="M23.954 4.569c-.885.392-1.83.656-2.825.775 
     1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 
